@@ -427,3 +427,28 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+.thevoid{
+  width: 20%;
+  padding-left: 1.5rem;
+}
+.void{
+  width: 20%;
+}
+.void2{
+  width: 20%;
+}
+.voidpic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pav{
+  text-align: justify;
+  width: 90%;
+}
