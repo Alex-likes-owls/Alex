@@ -11,6 +11,7 @@
   --colorGumball: #60a8be;
   --coloranais: #e58e99;
   --colordarwin: #c77e5a;
+  --colorvoid: #CCCFD2;
 }
 .active {
   color: var(--colorGumball) !important;
@@ -404,7 +405,7 @@ a:hover {
   align-items: center;
 }
 .theories{
-  background-color: var(--coloranais);
+  background-color: var(--colorvoid);
   height: auto;
   display: flex;
   flex-direction: column;
@@ -450,5 +451,36 @@ a:hover {
 }
 .pav{
   text-align: justify;
-  width: 90%;
+  width: 85%;
+}
+.rob{
+  width: 40%;
+}
+.rob2{
+  width: 40%;
+}
+.mol{
+  width: 50%;
+    padding-left: 2.5rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team{
+  height: auto;
+  background-color: var(--coloranais);
+}
+.teaml{
+  font-size: 24px;
+  list-style-type: none;
+}
+.g{
+  color: var(--color6);
+}
+.last{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
